@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*body{
+	  background-image: url("websiteimage.jpg");
+      
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+
+     }*/
+     h1{
+     	font-size: 40px;
+     	text-align: center;
+     	color: white;
+     	font-weight: bold;
+     	font-style: italic;
+     }
+     /*.one{
+     	font-size: 50px;
+     	font-weight: bold;
+     	text-align: center;
+     	font-family: sans-serif;
+     	animation-name: blink;
+     	/*-wibkit-animation-name: blink;
+     	animation-iteration-count: infinite;
+     	animation-duration: 2s;
+     	animation-delay: 1s;
+     	animation-direction: alternate;
+     }
+    @-webkit-keyframes blink{
+
+    	0%{opacity: 1;color: blue;}
+    	20%{opacity: 0;color: green;}
+    	40%{opacity: 1;color: magenta;}
+    	60%{opacity: 0;color: orange;}
+    	80%{opacity: 1;color: red;}
+    	100%{opacity: 0;color: orange;}
+
+    }
+/*
+    img{
+    	width: 10%;
+    }
+    */
+    .one{
+    	font-size: 20px;
+        /*border: 2px solid red;*/
+
+    }
+    
+.one{
+	font-size: 30px;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: left;
+	animation-name: blink;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-direction: alternate;
+}
+    
+    @-webkit-keyframes blink{
+
+    	0%{opacity:1; color: blue;}
+    	25%{opacity:0; color: green;}
+    	50%{opacity:1; color: red;}
+    	75%{opacity:0; color: magenta;}
+    	100%{opacity:1; color: white;}
+    }
