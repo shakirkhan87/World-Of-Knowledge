@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> form tag </title>
+	<style type="text/css">
+		.container{
+			width: 600px;
+			height: 550px;
+			border: 2px solid red;
+			padding: 30px 30px;
+			margin: auto;
+		}
+		input[type=text]{
+			width: 50%;
+			padding: 10px 15px;
+			margin: 10px 0px;
+			box-sizing: border-box;
+			border: 2px solid red;
+			border-radius: 3px;
+			background-color: #3CBC8D;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			font-family: sans-serif;
+			outline: none;
+		}
+		
+			input[type=email]{
+			width: 50%;
+			padding: 10px 15px;
+			margin: 10px 0px;
+			box-sizing: border-box;
+			border: 2px solid red;
+			border-radius: 3px;
+			background-color: #3CBC8D;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			font-family: sans-serif;
+			outline: none;
+
+
+		}
+
+		input[type=button],input[type=submit],input[type=reset]{
+			background-color: #4caf50;
+			border: none;
+			color: white;
+			padding: 15px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		 .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+	</style>
+</head>
+<body style="background-color: blue;">
+	<div class="container">
+	<form action="register.php" method="post">
+	     <h1 style ="color: red;"> Student Registration Form </h1>
+		FIRST NAME :<input type="text" name="fname"><br><br>
+		LAST NAME :<input type="text" name="lname"><BR><BR>
+		 		YOUR EMAIL :<input type="email" name="email"><BR><BR>
+		PASSWORD :<input type="password" name="pass"><BR><BR>
+
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" placeholder="Write something.." rows="5" required></textarea><BR><BR>
+		<input type="button" value="button">
+		<input type="submit" value="submit">  
+		<input type="reset" value="reset">  
+			
+		
+	</form>
+	</div>
+
+</body>
+</html>
