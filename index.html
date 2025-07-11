@@ -2,216 +2,170 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Online Tuition Academy</title>
-<link rel="stylesheet" href="externalstylesheet.css">
-<style>
-body {
-    padding-top: 2px;
-    margin: 10px;
-    background-image: url("websitebg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-}
-
-.main {
-    font-size: 20px;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: center;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-a:link { color: pink; }
-a:hover { color: magenta; }
-
-h1 {
-    font-size: 60px;
-    font-style: italic;
-    color: white;
-    text-align: center;
-}
-
-.one1, .two2 {
-    border: 2px solid red;
-    font-size: 30px;
-    color: white;
-    padding: 10px;
-}
-
-p {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-
-.notice {
-    border: 2px solid red;
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-}
-
-.course {
-    border: 2px solid black;
-    font-size: 20px;
-    color: white;
-    background: linear-gradient(to right, magenta, yellow, green);
-    padding: 20px;
-}
-
-/* Modal Login */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 2;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.7);
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: 10% auto;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-}
-
-.modal input {
-    width: 80%;
-    padding: 8px;
-    margin: 8px 0;
-}
-
-.modal button {
-    padding: 8px 20px;
-}
-
-.modal .close {
-    float: right;
-    font-size: 20px;
-    cursor: pointer;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Website</title>
+<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="Bblinking.css">
+    <link rel="stylesheet" type="text/css" href="externalstylesheet.css">
 </head>
+<body >
 
-<body>
+<header >
+  
 
-<!-- Navigation -->
-<table class="main" border="0" cellpadding="5" cellspacing="0" width="100%">
-<tr>
-    <th><a href="home.html">HOME</a></th>
-    <th><a href="about.html">ABOUT US</a></th>
-     <th><a href="contact.html">Contact US</a></th>
-     <th><a href="services.html">KPK TEXTBOOKS</a></th>
-     <th><a href="#">Privacy Policy</a></th>
-    <th><a href="galary.html">GALLERY</a></th>
-    <th><a href="loginform" onclick="openLogin()">LOGIN</a></th>
-    <th>
-        <input id="searchInput" type="search" placeholder="Search..." autocomplete="off" style="height: 30px; font-size: 16px;">
-        <button onclick="doSearch()" style="height: 34px;">SEARCH</button>
-    </th>
-</tr>
-</table>
+  <img src="SHAKIR.JPG" align="left"  style="width: 100px ; height : 120px;border :2px solid black; "><div class="one"><h1> WELCOME TO ONLINE TUTION ACADEMY</h1></div>
+</header>
 
-<!-- Header -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr>
-    <td><img src="SHAKIR.jpg" alt="Logo" style="border:4px solid black;width:150px;height:180px;"></td>
-    <td><h1>WELCOME TO ONLINE TUITION ACADEMY</h1></td>
-</tr>
-</table>
 
-<!-- Marquee -->
-<marquee class="one1" onmouseover="this.stop()" onmouseleave="this.start()">ONLINE COURSE OFFERS — <a href="vedio.html">Click Here</a></marquee>
-<marquee class="two2" direction="right" onmouseover="this.stop()" onmouseleave="this.start()">Home Tuition Available — <a href="#">Click Here</a></marquee>
+<nav>
+  
+ <font size="5px">  <a href="home.html">Home</a></font>
+<font size="5px">   <a href="about.html">About</a></font>
+ <font size="5px">  <a href="services.html">Services</a></font>
+  <font size="5px"> <a href="contact.html">Contact</a></font>
+  <font size="5px"> <a href="privacy.html">Privacy Policy</a></font>
+ <font size="5px">  <a href="form1.html">Login</a></font>
+    
+</nav>
+
+
+
+<marquee class="one1" onmouseover="this.stop()" onmouseleave="this.start()">ONLINE COURSE OFFERS — <a href="home.html">Click Here</a></marquee>
+<marquee class="two2" direction="right" onmouseover="this.stop()" onmouseleave="this.start()">Home Tuition Available — <a href="contact.html">Click Here</a></marquee>
+
 
 <!-- Latest News -->
 <section class="latest-news">
 <h1>Latest News</h1>
 <marquee class="one1" direction="up" scrollamount="1" onmouseover="this.stop()" onmouseleave="this.start()" style="height: 200px;">
-<ul>
-    <li>English Book Class 5th Available in PDF</li>
-    <li>General Science Book Class 5th Available in PDF</li>
-    <li>Islamiat Book Class 5th Available in PDF</li>
-    <li>Pak-Study Book Class 5th Available in PDF</li>
-    <li>Urdu Book Class 5th Available in PDF</li>
-    <li>Mathematics Book Class 5th Available in PDF</li>
+    <ul>
+          <li>English Book Class 5th Available in pdf</li>
+          <li>General Science Book Class 5th Available in pdf </li>
+          <li>Islamiat Book Class 5th Available in pdf</li>
+          <li>Pak-Study Book Class 5th Available in pdf</li>
+          <li>Urdu Book Class 5th Available in pdf</li>
+          <li>Mathematics Book Class 5th Available in pdf</li>
+        </ul>
+    </marquee>
+      </section>
+        <!-- Start Notice Section -->
+  <section class="notice">
+    <div class="notice-div">
+            <marquee scrollamount="10" onmouseover="this.stop()" onmouseleave="this.start()">KPK TEXTBOOKS AVAILABLE ONLINE <a href="services.html">Click Here</a></marquee>
+    </div>
+  </section>
+
+<main >
+  <article>
+    <p style="font-weight: bold; text-align: left;"><span><span style="color: white; font-weight: bold; text-align: center;"></span></span></p><h3 style="font-size: xx-large;"><span><span style="color: white; font-weight: bold; text-align: center;"> Welcome to Online Learning Tuition🌟Introduction</span></span></h3><span><span style="color: white; font-weight: bold; text-align: left;">
+<p data-end="324" data-start="204" style="text-align: justify;"><span style="font-size: medium;">We are delighted to welcome you to <strong data-end="266" data-start="239">Online Learning Tuition</strong>, your trusted partner in the world of online education.</span></p>
+<p data-end="717" data-start="326" style="text-align: justify;"><span style="font-size: medium;">In today’s fast-paced digital era, education has become more accessible than ever before. Gone are the days when you had to travel miles or be physically present in a classroom to learn and grow. At <strong data-end="552" data-start="525">Online Learning Tuition</strong>, we bring the classroom to your home, offering you an interactive, engaging, and professional platform where you can learn at your own pace, anytime and anywhere.</span></p>
+<hr data-end="722" data-start="719" style="font-size: xx-large;" />
+<h2 data-end="740" data-start="724" style="font-size: xx-large;">🎓 About Us</h2>
+<p data-end="984" data-start="742" style="text-align: justify;"><span style="font-size: medium;"><strong data-end="769" data-start="742">Online Learning Tuition</strong> is a professional education platform dedicated to providing students of all ages with high-quality learning content. Our mission is simple: to make learning more accessible, enjoyable, and effective for everyone.</span></p>
+<p data-end="1256" data-start="986" style="text-align: justify;"><span style="font-size: medium;">We firmly believe that education is the most powerful tool you can use to change your life — and the world around you. That’s why we created this platform: to help you unlock your true potential by giving you the resources and support you need to succeed academically.</span></p>
+<p data-end="1569" data-start="1258" style="text-align: justify;"><span style="font-size: medium;">Here on our website, we aim to post only meaningful, interesting, and helpful content that you will not only enjoy reading but will also benefit from in your studies. Whether you’re looking for notes, guidance, or motivation to keep moving forward in your educational journey — you’ve come to the right place.</span></p>
+<hr data-end="1574" data-start="1571" style="font-size: xx-large;" />
+<h2 data-end="1606" data-start="1576" style="font-size: xx-large;">🌟 Our Mission and Vision</h2>
+<p data-end="1786" data-start="1608" style="text-align: justify;"><span style="font-size: medium;">We are committed to offering you nothing but the best. With a strong focus on dependability and a passion for online education, we work tirelessly to bring you content that is:</span></p>
+<p data-end="1905" data-start="1788"></p><div style="text-align: justify;"><span style="font-size: large;">✅ Well-researched</span></div><span style="font-size: medium;"><div style="text-align: justify;">✅ Easy to understand</div><div style="text-align: justify;">✅ Useful in your exams and daily learning</div><div style="text-align: justify;">✅ Motivational and inspiring</div></span><p></p>
+<p data-end="2161" data-start="1907" style="text-align: justify;"><span style="font-size: medium;">Our vision is to build an online education community that supports students from all walks of life — whether you’re a school student preparing for your board exams, a college student seeking guidance, or even someone who just loves learning new things.</span></p>
+<p data-end="2323" data-start="2163" style="text-align: justify;"><span style="font-size: medium;">We dream of creating a thriving educational hub where students can come together, find the resources they need, and feel confident about their academic goals.</span></p>
+<hr data-end="2328" data-start="2325" style="font-size: xx-large;" />
+<h2 data-end="2352" data-start="2330" style="font-size: xx-large;">📚 Why Choose Us?</h2>
+<p data-end="2417" data-start="2354" style="text-align: justify;"><span style="font-size: medium;">You may be wondering: why choose <strong data-end="2414" data-start="2387">Online Learning Tuition</strong>?</span></p>
+<p data-end="2484" data-start="2419" style="text-align: justify;"><span style="font-size: medium;">Here are just a few reasons why thousands of students trust us:</span></p>
+<p data-end="3031" data-start="2486"></p><div style="text-align: justify;"><span style="font-size: large;">⭐ </span><strong data-end="2508" data-start="2488" style="font-size: large;">Quality Content:</strong><span style="font-size: large;"> Every article, note, and resource we share is crafted carefully to ensure it’s accurate and easy to follow.</span></div><span style="font-size: medium;"><div style="text-align: justify;">⭐ <strong data-end="2638" data-start="2621">Focus on You:</strong> Everything we do is designed with your needs in mind — because your success is our success.</div><div style="text-align: justify;">⭐ <strong data-end="2759" data-start="2735">Accessible Learning:</strong> We believe education should be available to everyone, everywhere. That’s why all of our content is online and easy to access.</div><div style="text-align: justify;">⭐ <strong data-end="2917" data-start="2890">Continuous Improvement:</strong> We keep updating our website with fresh, relevant, and helpful posts so you always have something new to learn.</div></span><p></p>
+<hr data-end="3036" data-start="3033" style="font-size: xx-large;" />
+<h2 data-end="3061" data-start="3038" style="font-size: xx-large;">💬 A Personal Note</h2>
+<p data-end="3296" data-start="3063" style="text-align: justify;"><span style="font-size: medium;">From the very beginning, our goal has been to turn our passion for education into a growing online platform that makes a real difference in people’s lives. And we couldn’t have done it without you — our valued readers and learners.</span></p>
+<p data-end="3517" data-start="3298" style="text-align: justify;"><span style="font-size: medium;">Your support and encouragement mean everything to us. Every time you visit our site, leave a comment, share a post, or recommend us to your friends — you’re helping us grow. So thank you from the bottom of our hearts!</span></p>
+<p data-end="3724" data-start="3519" style="text-align: justify;"><span style="font-size: medium;">We promise to keep posting even more important, interesting, and beneficial posts on this website for all of you. Your feedback and suggestions are always welcome — because they help us serve you better.</span></p>
+<hr data-end="3729" data-start="3726" style="font-size: xx-large;" />
+<h2 data-end="3760" data-start="3731" style="font-size: xx-large;">📌 Our Commitment to You</h2>
+<p data-end="3854" data-start="3762" style="text-align: justify;"><span style="font-size: medium;">We know how important education is in shaping your future. That’s why we are committed to:</span></p>
+<p data-end="4088" data-start="3856"></p><div style="text-align: justify;"><span style="font-size: large;">✨ Supporting you at every step of your learning journey</span></div><span style="font-size: medium;"><div style="text-align: justify;">✨ Providing reliable and trustworthy educational resources</div><div style="text-align: justify;">✨ Making learning easier, more fun, and more effective</div><div style="text-align: justify;">✨ Listening to your feedback and improving our content</div></span><p></p>
+<p data-end="4254" data-start="4090" style="text-align: justify;"><span style="font-size: medium;">At <strong data-end="4120" data-start="4093">Online Learning Tuition</strong>, you are not just a visitor — you are part of our community. Together, we can create a brighter, smarter, and more informed future.</span></p>
+<hr data-end="4259" data-start="4256" style="font-size: xx-large;" />
+<h2 data-end="4283" data-start="4261" style="font-size: xx-large;">🌟 Stay Connected</h2>
+<p data-end="4484" data-start="4285" style="text-align: justify;"><span style="font-size: medium;">To make sure you never miss an update, bookmark our website and check back often for new posts. We also recommend sharing our site with your friends and classmates who may benefit from our content.</span></p>
+<p data-end="4563" data-start="4486" style="text-align: justify;"><span style="font-size: medium;">Your support and love keep us motivated to do more and be better every day.</span></p>
+<hr data-end="4568" data-start="4565" style="font-size: xx-large;" />
+<h2 data-end="4588" data-start="4570" style="font-size: xx-large;">❤️&nbsp;Thank You!</h2>
+<p data-end="4782" data-start="4590" style="text-align: justify;"><span style="font-size: medium;">We truly appreciate you visiting our site. We hope you find it helpful, informative, and inspiring. Please continue to support us by reading, sharing, and letting us know how we can improve.</span></p>
+<p data-end="4875" data-start="4784" style="text-align: justify;"><span style="font-size: medium;">Remember, education is a lifelong journey — and we’re honored to walk that path with you.</span></p>
+<p data-end="4938" data-start="4877" style="text-align: justify;"><strong data-end="4936" data-start="4877"><span style="font-size: medium;">Thank you once again for your time, trust, and support.</span></strong></p>
+<p data-end="5044" data-start="4940" style="text-align: justify;"><span style="font-size: medium;">We wish you all the best in your learning journey. May you achieve all your academic goals and beyond.</span></p>
+<p data-end="5093" data-start="5046" style="text-align: justify;"><span style="font-size: medium;">Have a wonderful day — and happy learning!</span><span style="font-size: xx-large;"> 🌷</span></p>
+<hr data-end="5098" data-start="5095" style="font-size: xx-large;" />
+<h3 data-end="5119" data-start="5100" style="font-size: xx-large;">📧 Contact Us</h3>
+<p data-end="5237" data-start="5120" style="text-align: justify;"><span style="font-size: medium;">If you ever have any questions, feedback, or suggestions, feel free to reach out to us. We’d love to hear from you!</span></p>
+<p data-end="5366" data-start="5239"></p><div style="text-align: justify;"><span style="font-size: large;">📱 </span><strong data-end="5258" data-start="5242" style="font-size: large;">WhatsApp Us:</strong><span style="font-size: large;"> </span><a class="cursor-pointer" data-end="5304" data-start="5259" rel="noopener" style="font-size: large;" target="_new">+92 342 0965155</a></div><span style="font-size: medium;"><div style="text-align: justify;">📩 Or leave us a message through our <strong data-end="5358" data-start="5344">Contact Us</strong> page.</div></span><p></p><br /></span></span><p></p>
+  </article>
+
+  <article>
+    <h1></h1><h1 data-end="240" data-start="191" style="text-align: right;"><span style="color:  white; font-size: x-large;">📞 ہم سے رابطہ کریں — Online Learning Tuition</span></h1>
+<p data-end="467" data-start="242" style="text-align: left;"></p><p style="text-align: left;">ہ<span style="font-size: larger;"><span style="color: white;">م خوش آمدید کہتے ہیں آپ کو ہماری ویب سائٹ پر!<br /></span><span style="color: white;">اگر آپ کو ہماری ویب سائٹ کے بارے میں کسی بھی قسم کی معلومات درکار ہو، یا آپ ہمارے ساتھ اشتہارات، تعاون یا کسی اور موضوع پر بات کرنا چاہتے ہیں تو آپ بالکل صحیح جگہ پر آئے ہیں۔</span></span></p><p style="text-align: left;"><span style="font-size: larger;"></span></p><div class="separator" style="clear: both; text-align: center;"><span style="font-size: larger;"><img border="0" data-original-height="1024" data-original-width="1024" height="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyDL-Pp3meLFRb-xZ1IUFCMq3j-2LTgS28LlU5t4o4b36Qyl0amB9hkiZ6GgZN4PCNfqekCL186KGKxvalHZiT-U9t0dwX17S9ZPwj9L89vJ9OXovNnc4E9G3-K4QNVnM5ephZrlEWSMxulT1niZbYYGgPdjsHqTwVV-CdqNlFPB3RPt4iM8NKSt-sGQ/w640-h640/contactus.png" width="640" /></span></div><span style="color:  white;"><span style="font-size: larger;"><div style="text-align: center;">💬 ہمارا رابطہ فارم اور واٹس ایپ سروس</div></span><span style="font-size: larger;"><div style="text-align: center;">📱&nbsp;<strong data-end="1532" data-start="1499">واٹس ایپ پر ہم سے رابطہ کریں:</strong></div></span><a class="cursor-pointer" data-end="1580" data-start="1535" rel="noopener" style="font-size: larger;" target="_new"></a><div style="text-align: center;"><a class="cursor-pointer" data-end="1580" data-start="1535" rel="noopener" style="font-size: larger;" target="_new"></a><a class="cursor-pointer" data-end="1580" data-start="1535" rel="noopener" target="_new">+92 342 0965155</a></div></span><p></p><hr data-end="674" data-start="671" style="text-align: left;" /><span style="font-size: larger;"><span style="color:  white;">📚 ہم سے رابطہ کیوں کریں؟</span><br /><span style="color:  white;"><strong data-end="735" data-start="708">Online Learning Tuition</strong> ایک ایسا پلیٹ فارم ہے جو طلبہ و طالبات کو گھر بیٹھے معیاری تعلیم فراہم کرنے کے لیے بنایا گیا ہے۔ ہمارے پاس ہر وہ سہولت موجود ہے جو ایک بہترین آن لائن تعلیمی ادارے میں ہونی چاہیے۔</span><br /><span style="color:  white;">اگر آپ ہماری خدمات کے بارے میں جاننا چاہتے ہیں یا ہماری ٹیم سے کوئی خاص سوال پوچھنا چاہتے ہیں تو ہم سے رابطہ کرنے میں بالکل بھی ہچکچائیں نہیں۔</span></span><hr data-end="1344" data-start="1341" style="text-align: left;" /><span style="font-size: larger;"><span style="color:  white;">💬 ہمارا رابطہ فارم اور واٹس ایپ سروس</span><br /><span style="color:  white;">📱 <strong data-end="1532" data-start="1499">واٹس ایپ پر ہم سے رابطہ کریں:</strong></span><br /><a class="cursor-pointer" data-end="1580" data-start="1535" rel="noopener" target="_new"><span style="color:  white;">+92 342 0965155</span></a><br /><span style="color:  white;">آپ جب بھی ہمیں واٹس ایپ کریں گے تو ہماری ٹیم جلد از جلد آپ کو جواب دے گی۔</span><br /><span style="color:  white;">ہماری کوشش ہوتی ہے کہ زیادہ سے زیادہ 24 گھنٹوں کے اندر آپ کے پیغام کا جواب دیا جائے۔</span></span><hr data-end="1751" data-start="1748" style="text-align: left;" /><span style="font-size: larger;"><span style="color:  white;">🌟 اشتہارات اور تعاون</span><br /><span style="color: white;">اگر آپ ہماری ویب سائٹ پر اپنے برانڈ یا کاروبار کا اشتہار دینا چاہتے ہیں تو ہم آپ کا خیر مقدم کرتے ہیں۔</span><br /><span style="color:  white;">ہماری ویب سائٹ روزانہ درجنوں طلبہ و طالبات کی ضرورت پوری کرتی ہے، اس لیے یہاں اشتہار دینا آپ کے برانڈ کے لیے فائدہ مند ثابت ہو سکتا ہے۔</span></span><hr data-end="2258" data-start="2255" style="text-align: left;" /><span style="font-size: larger;"><span style="color: white;">🕒 کب جواب ملے گا؟</span><br /><span style="color:  white;">ہماری ٹیم پورے ہفتے آپ کے پیغامات پڑھتی ہے اور ان پر عمل کرتی ہے۔</span><br /><span style="color:  white;">اکثر اوقات ہم آپ کو چند گھنٹوں کے اندر ہی جواب دے دیتے ہیں۔ اگر آپ کا پیغام کسی چھٹی کے دن آئے یا زیادہ پیچیدہ ہو تو اس کا جواب دینے میں کچھ وقت لگ سکتا ہے۔</span></span><hr data-end="2621" data-start="2618" style="text-align: left;" /><span style="font-size: larger;"><span style="color: white;">🤝 شکریہ اور آپ کی قدر</span><br /><span style="color:  white;">ہم دل کی گہرائیوں سے آپ کا شکریہ ادا کرتے ہیں کہ آپ نے ہمیں منتخب کیا۔</span><br /><span style="color:  white;">آپ کی رائے ہمارے لیے بہت اہم ہے کیونکہ اسی سے ہم اپنے کام میں مزید بہتری لا سکتے ہیں۔</span><br /><span style="color:  white;">یہی وجہ ہے کہ ہم چاہتے ہیں آپ ہم سے کھل کر بات کریں اور ہمیں اپنے خیالات سے آگاہ کریں۔</span></span><hr data-end="2906" data-start="2903" style="text-align: left;" /><span style="font-size: larger;"><span style="color:  white;">✨ ہمارا مقصد</span><br /><span style="color : white;"><strong data-end="2954" data-start="2927">Online Learning Tuition</strong> کا مقصد نہ صرف طلبہ و طالبات کو آن لائن تعلیم فراہم کرنا ہے بلکہ انہیں ایک ایسا پلیٹ فارم دینا ہے جہاں وہ اپنی تمام تعلیمی ضروریات پوری کر سکیں۔</span><br /><span style="color:  white;">ہم چاہتے ہیں کہ ہر بچہ، چاہے وہ کسی بھی علاقے میں ہو، معیاری تعلیم حاصل کرے۔</span><br /><span style="color:  white;">اسی خواب کو پورا کرنے کے لیے ہم اپنی ویب سائٹ پر آپ کو بہترین مواد اور بہترین سہولتیں فراہم کرنے کی کوشش کر رہے ہیں۔</span></span><hr data-end="3304" data-start="3301" style="text-align: left;" /><span style="font-size: larger;"><span style="color:  white;">📌 آخر میں</span><br /><span style="color:  white;">اگر آپ کو ہماری ویب سائٹ، خدمات، اشتہارات یا کسی اور موضوع پر بات کرنی ہو تو نیچے دیے گئے نمبر پر ہم سے واٹس ایپ پر رابطہ کریں۔</span><br /><span style="color:  white;">ہماری ٹیم جلد از جلد آپ کے سوالات کا جواب دے گی۔</span><br /><em data-end="3633" data-start="3575"><span style="color:  white;">ہم سے رابطہ کریں، ہمیں آپ کی رہنمائی کرنے میں خوشی ہوگی۔</span></em></span><p></p><p></p>
+<p data-end="669" data-start="469" style="text-align: left;"><span style="color:  white; font-size: larger;">ہماری کوشش ہے کہ آپ کو بہترین آن لائن تعلیم کی سہولت فراہم کریں۔ اس کے ساتھ ساتھ، ہم چاہتے ہیں کہ آپ کے ہر سوال کا بروقت اور مکمل جواب دیا جائے تاکہ آپ کو کسی بھی قسم کی دشواری کا سامنا نہ کرنا پڑے۔</span></p>
+
+
+
+<p data-end="1109" data-start="1063" style="text-align: left;"><span style="color: white; font-size: larger;">کچھ اہم مواقع جب آپ ہم سے رابطہ کر سکتے ہیں:</span></p>
+<ul data-end="1339" data-start="1110" style="text-align: left;">
+<li data-end="1161" data-start="1110">
+<p data-end="1161" data-start="1112" style="text-align: left;"><span style="color: white; font-size: larger;">ویب سائٹ کے استعمال کے دوران کسی مسئلے کی شکایت</span></p>
+</li>
+<li data-end="1210" data-start="1162">
+<p data-end="1210" data-start="1164" style="text-align: left;"><span style="color: white; font-size: larger;">کلاسز یا اسباق کے بارے میں مزید معلومات لینا</span></p>
+</li>
+<li data-end="1262" data-start="1211">
+<p data-end="1262" data-start="1213" style="text-align: left;"><span style="color:  white; font-size: larger;">اشتہارات یا برانڈ پارٹنرشپ کے بارے میں بات کرنا</span></p>
+</li>
+<li data-end="1300" data-start="1263">
+<p data-end="1300" data-start="1265" style="text-align: left;"><span style="color:  white; font-size: larger;">اپنی رائے دینا یا تجاویز پیش کرنا</span></p>
+</li>
+<li data-end="1339" data-start="1301">
+<p data-end="1339" data-start="1303" style="text-align: left;"><span style="color:  white; font-size: larger;">نئے کورسز یا فیچرز کی درخواست کرنا</span></p>
+</li>
 </ul>
-</marquee>
-</section>
 
-<!-- Notice -->
-<section class="notice">
-<marquee scrollamount="10" onmouseover="this.stop()" onmouseleave="this.start()">KPK TEXTBOOKS AVAILABLE ONLINE — <a href="#">Click Here</a></marquee>
-</section>
 
-<!-- Course -->
-<section class="course">
-<h1>Class 5th Books</h1>
-<ul>
-    <li>Download & Install Editors</li>
-    <li>Basic</li>
-    <li>Elements</li>
-    <li>Attributes</li>
-    <li>Headings</li>
-    <li>Paragraphs</li>
-    <li>Styles</li>
-    <li>Text Formatting</li>
-    <li>Quotation and Citation Elements</li>
-    <li>Comments</li>
-    <li>Colors</li>
-    <li>Links</li>
-    <li>Images</li>
-    <li>Tables</li>
-    <li>Lists</li>
-    <li>Audio</li>
-    <li>Video</li>
-    <li>Blocks</li>
-    <li>Forms</li>
-    <li>Form Attributes</li>
-    <li>Form Elements</li>
-    <li>Input Types</li>
-    <li>Input Attributes</li>
+<p data-end="1494" data-start="1390" style="text-align: left;"><span style="color:  white; font-size: larger;">ہم آپ کو آسان اور تیز رابطے کے لیے واٹس ایپ نمبر فراہم کرتے ہیں تاکہ آپ فوری طور پر ہم سے بات کر سکیں۔</span></p>
+
+
+
+
+
+<p data-end="2070" data-start="2025" style="text-align: left;"><span style="color:  white; font-size: larger;">ہم مختلف قسم کے اشتہاری پیکجز پیش کرتے ہیں:</span></p>
+<ul data-end="2165" data-start="2071" style="text-align: left;">
+<li data-end="2084" data-start="2071">
+<p data-end="2084" data-start="2073" style="text-align: left;"><span style="color:  white; font-size: larger;">بینر ایڈز</span></p>
+</li>
+<li data-end="2103" data-start="2085">
+<p data-end="2103" data-start="2087" style="text-align: left;"><span style="color:  white; font-size: larger;">اسپانسرڈ پوسٹس</span></p>
+</li>
+<li data-end="2138" data-start="2104">
+<p data-end="2138" data-start="2106" style="text-align: left;"><span style="color:  white; font-size: larger;">ای میل نیوز لیٹر میں شامل کرنا</span></p>
+</li>
+<li data-end="2165" data-start="2139">
+<p data-end="2165" data-start="2141" style="text-align: left;"><span style="color:  white; font-size: larger;">سوشل میڈیا پر پروموشنز</span></p>
+</li>
 </ul>
-</section>
+<p data-end="2253" data-start="2167" style="text-align: left;"><span style="color:  white; font-size: larger;">اس بارے میں مزید معلومات کے لیے بھی آپ اسی واٹس ایپ نمبر پر ہم سے رابطہ کر سکتے ہیں۔</span></p>
 
-<!-- Login Modal -->
-<div id="loginModal" class="modal">
-<div class="modal-content">
-<span class="close" onclick="closeLogin()">&times;</span>
-<h2>Login</h2>
-<input type="text" placeholder="Username"><br>
-<input type="password" placeholder="Password"><br>
-<button onclick="alert('Login submitted!')">Submit</button>
-</div>
-</div>
 
-<script>
-function doSearch() {
-    const query = document.getElementById("searchInput").value.trim();
-    if (query) {
-        alert("You searched for: " + query);
-    } else {
-        alert("Please enter a search term.");
-    }
-}
 
-function openLogin() {
-    document.getElementById("loginModal").style.display = "block";
-}
+<p data-end="2616" data-start="2513" style="text-align: left;"><span style="color:  white; font-size: larger;">ہم سے رابطہ کرنے کے بعد صبر سے انتظار کریں، کیونکہ آپ کے ہر پیغام کو ہم پوری توجہ اور اہمیت دیتے ہیں۔</span></p>
+<p data-end="3677" data-start="3575" style="text-align: left;">
+<span style="font-size: medium;"><strong data-end="3675" data-start="3636"></strong></span></p><div style="text-align: left;"><strong data-end="3675" data-start="3636"><strong data-end="3675" data-start="3636"><span style="font-size: larger;"><span style="color:  white;">شکریہ اور آپ کا دن خوشگوار گزرے</span>! 🌷</span></strong></strong></div><p></p><div style="text-align: right;"><br /></div>
 
-function closeLogin() {
-    document.getElementById("loginModal").style.display = "none";
-}
-</script>
+  </article>
+
+</main>
+
+<footer>
+  &copy; 2025 My Responsive Website
+</footer>
 
 </body>
 </html>
